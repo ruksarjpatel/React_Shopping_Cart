@@ -1,16 +1,25 @@
-# React + Vite
+# React E-Commerce Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A high-performance, responsive client-side e-commerce platform built with React.js, Tailwind CSS, and React Router. Demonstrates global state management with React Context API, dynamic multi-criteria filtering, and render optimization using custom useMemo hooks.
 
-Currently, two official plugins are available:
+Live Demo: https://react-shopping-cart-three-chi.vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Product Catalog & Filtering: Dynamic client-side filtering by category, price, and target keywords.
+- Instant Search: Client-side search bar for quick product discovery.
+- Global Cart State: Unified cart operations (add, remove, quantity update) powered by React Context API.
+- Performance Optimization: Optimized calculations for filtered views and total costs using useMemo.
+- Mobile-First Design: Responsive layout grid built with Tailwind CSS.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Tech Stack
+
+- Framework: React.js (Vite)
+- Styling: Tailwind CSS
+- State Management: React Context API
+- Routing: React Router DOM
+- Deployment: Vercel
